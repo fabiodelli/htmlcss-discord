@@ -1,0 +1,80 @@
+/* Debug---------------------------------------------- */
+
+/* .debug-header-up {
+    background: lightblue;
+}
+.debug-header-bottom {
+    background: blue;
+    height: 300px;
+} */
+
+/* .debug-link{
+    background: orange;
+} */
+
+/* .debug-banner {
+    background: pink;
+} */
+
+.debug-section-1{
+    background: white;
+    height: 500px;
+}
+
+.debug-section-1-left {
+    background: rgb(19, 89, 180);
+}
+
+.debug-section-1-right {
+    background: rgb(189, 40, 29);
+}
+
+.debug-section-2{
+    background: rgb(192, 192, 192);
+    height: 500px;
+}
+
+.debug-section-2-left {
+    background: rgb(19, 89, 180);
+}
+
+.debug-section-2-right {
+    background: rgb(189, 40, 29);
+}
+
+.debug-section-3{
+    background: rgb(192, 192, 192);
+}
+
+.debug-section-center-3 {
+    background: green;
+    height: 800px;
+}
+
+.debug-footer-info{
+    background-color: rgb(71, 71, 71);
+}
+
+.debug-container-footer-info{
+    height: 500px;
+}
+
+.debug-big-column-footer-info{
+   background-color:coral;
+}
+
+.debug-little-column-footer-info{
+    background-color:aquamarine;
+}
+
+.debug-footer {
+    background:  rgb(71, 71, 71);
+}
+
+.debug-footer-box {
+    background: rgb(19, 68, 107);
+}
+
+.debug-footer-item {
+    background-color: lightgray ;
+}
