@@ -1,0 +1,267 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: dashed 1px black;
+    font-size: 20px;
+}
+
+
+/* Utility---------------------------------- */
+
+.d-f {
+    display: flex;
+}
+
+
+/* Body -----------------------------------*/
+
+/* Header---------------------------------- */
+
+
+.header-up {
+    display: flex;
+    justify-content: center;
+    padding: 1.5rem;
+}
+
+.nav {
+    display: flex;
+    width: 1140px;
+    justify-content: center;
+    height: 30px;
+
+}
+
+.link-left{
+    flex-grow: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px;
+}
+
+.link-center{
+    flex-grow: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;   
+}
+
+.link-right{
+    flex-grow: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px; 
+}
+
+.header-bottom {
+
+    justify-content: center;
+    padding: 1.5rem;
+    display: flex;
+}
+
+.banner {
+    display: flex;
+    width: 800px;
+    justify-content: center;
+}
+
+
+/* Main--------------------------------------- */
+
+/* Section-1 ------------------*/
+
+.section-1 {
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+    
+    
+}
+
+.Container-section-1 {
+    width: 1140px;
+    display: flex;
+}
+
+
+.section-1-left {
+    justify-content: center;
+    flex-grow: 0.6;
+}
+
+.section-1-right {
+    justify-content: center;
+    flex-grow: 0.4;
+}
+
+
+/* Section-2 ------------------*/
+
+.section-2 {
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.Container-section-2 {
+    width: 1140px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+
+.section-2-left {
+    justify-content: center;
+    flex-grow: 0.6;
+}
+
+.section-2-right {
+    justify-content: center;
+    flex-grow: 0.4;
+}
+
+/* Section-3 --------------*/
+
+.section-3 {
+    display: flex;
+    justify-content: center;
+    padding: 2rem; 
+}
+
+.Container-section-3 {
+    width: 1140px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.section-center-3 {
+    width: 100%;
+}
+
+
+/* Footer--------------------------------------------- */
+
+.footer-info{
+    display: flex;
+    justify-content: center;
+    padding: 0.5rem 0 2rem 0;
+}
+
+.container-footer-info{
+    display:flex;
+    width: 1140px; 
+}
+
+.big-column-footer-info{
+    flex-grow: 2;
+}
+
+.little-column-footer-info{
+    flex-grow: 1;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    padding: 1.5rem;
+}
+
+.footer-box {
+    display: flex;
+    width: 1140px;
+    justify-content: space-between;
+    height: 50px;
+    align-items: center;
+}
+
+.footer-item{
+    padding: 2px;
+}
+
+
+/* Debug---------------------------------------------- */
+
+.debug-header-up {
+    background: lightblue;
+}
+
+.debug-link{
+    background: orange;
+}
+
+.debug-header-bottom {
+    background: blue;
+    height: 300px;
+}
+
+.debug-banner {
+    background: pink;
+}
+
+.debug-section-1{
+    background: white;
+    height: 500px;
+}
+
+.debug-section-1-left {
+    background: rgb(19, 89, 180);
+}
+
+.debug-section-1-right {
+    background: rgb(189, 40, 29);
+}
+
+.debug-section-2{
+    background: rgb(192, 192, 192);
+    height: 500px;
+}
+
+.debug-section-2-left {
+    background: rgb(19, 89, 180);
+}
+
+.debug-section-2-right {
+    background: rgb(189, 40, 29);
+}
+
+.debug-section-3{
+    background: rgb(192, 192, 192);
+}
+
+.debug-section-center-3 {
+    background: green;
+    height: 800px;
+}
+
+.debug-footer-info{
+    background-color: rgb(71, 71, 71);
+}
+
+.debug-container-footer-info{
+    height: 500px;
+}
+
+.debug-big-column-footer-info{
+   background-color:coral;
+}
+
+.debug-little-column-footer-info{
+    background-color:aquamarine;
+}
+
+.debug-footer {
+    background:  rgb(71, 71, 71);
+}
+
+.debug-footer-box {
+    background: rgb(19, 68, 107);
+}
+
+.debug-footer-item {
+    background-color: lightgray ;
+}
