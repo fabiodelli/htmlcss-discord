@@ -10,118 +10,140 @@
 
 /* Utility---------------------------------- */
 
-a{
+a {
     color: white;
     text-decoration: none;
 }
 
-h1{
-    font-size:  3rem;
+h1 {
+    font-size: 3rem;
 }
 
-h2{
+h2 {
     font-size: 2rem;
     margin: 2rem;
 }
 
-h3{
+h3 {
     font-size: 1rem;
     margin: 1rem;
 }
 
-h4{
+h4 {
     color: #5f73b2;
 }
 
-ul{
+ul {
     list-style-type: none;
     color: white;
 }
 
-li{
+li {
     line-height: 1rem;
     margin-top: 0.7rem;
 }
 
-.hr-div{
+main>section {
+    margin: 3rem 0;
+}
+
+.hr-div {
     width: 800px;
 }
 
-.favicon-radius{
+.favicon-radius {
     border-radius: 10px;
 }
 
-.m0-p0{
+.m0-p0 {
     margin: 0;
     padding: 0;
 }
 
-.m-2rem{
+.m-2rem {
     margin: 2rem;
 }
 
-.m-1rem{
+.m-1rem {
     margin: 1rem;
 }
 
-.m-05rem{
+.m-05rem {
     margin: 0.5rem;
 }
 
-.mb-1rem{
+.mb-1rem {
 
     margin-bottom: 1rem;
 }
-    
-.br-50px{
+
+.br-50px {
     border-radius: 50px;
 }
 
-.p-05rem{
+.p-05rem {
     padding: 0.5rem;
 }
 
-.p-1rem{
+.p-1rem {
     padding: 1rem;
 }
 
-.margin-block-start{
+.margin-block-start {
     margin-block-start: 0px;
 }
 
-.backg-black{
+.backg-black {
     background-color: black;
 }
 
-.white-text{
+.white-text {
     color: white;
 }
 
-.backg-white{
+.backg-white {
     background: white;
 }
 
-.discord-color{
+.discord-color {
     color: #5f73b2;
 }
 
-.text-center{
+.text-center {
     text-align: center;
 }
 
-.flag-size{
+.flag-size {
     width: 20px;
+}
+
+.svg-1 {
+    position: absolute;
+    z-index: -1;
+    left: 0;
+
+    height: 500px;
+    width: 100%;
+}
+
+.svg-2 {
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    top: 10;
+    height: 100%;
+    width: 100%;
 }
 
 
 /* Body -----------------------------------*/
 
 /* Header---------------------------------- */
-header{
-    background-image: url(../img/jumbo.png); 
+header {
+    background-image: url(../img/jumbo.png);
     background-repeat: no-repeat;
-    background-size:contain;
-    height: 750px; 
+    background-size: contain;
+    height: 750px;
 }
 
 .header-up {
@@ -138,7 +160,7 @@ header{
 
 }
 
-.link-left{
+.link-left {
     flex-grow: 1;
     display: flex;
     justify-content: flex-start;
@@ -146,20 +168,20 @@ header{
     padding: 10px;
 }
 
-.link-center{
+.link-center {
     flex-grow: 2;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 10px;  
+    padding: 10px;
 }
 
-.link-right{
+.link-right {
     flex-grow: 1;
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    padding: 10px; 
+    padding: 10px;
     background: white;
     border-radius: 50px;
     margin-left: 9rem;
@@ -194,13 +216,13 @@ header{
     display: flex;
     justify-content: center;
     padding: 2rem;
-    
-    
+
 }
 
 .Container-section-1 {
     width: 1140px;
     display: flex;
+
 }
 
 
@@ -245,7 +267,7 @@ header{
 .section-3 {
     display: flex;
     justify-content: center;
-    padding: 2rem; 
+    padding: 2rem;
 }
 
 .Container-section-3 {
@@ -258,10 +280,10 @@ header{
 .section-center-3 {
     display: flex;
     flex-direction: column;
-    align-items: center;    
+    align-items: center;
 }
 
-.button-section-3{
+.button-section-3 {
     border-radius: 50px;
     padding: 10px;
     background: #8ea1e1;
@@ -272,23 +294,23 @@ header{
 
 /* Footer--------------------------------------------- */
 
-.footer-info{
+.footer-info {
     display: flex;
     justify-content: center;
     padding: 4rem 0 2rem 0;
     background: #23272a;
 }
 
-.container-footer-info{
-    display:flex;
-    width: 1140px; 
+.container-footer-info {
+    display: flex;
+    width: 1140px;
 }
 
-.big-column-footer-info{
+.big-column-footer-info {
     flex-grow: 2;
 }
 
-.little-column-footer-info{
+.little-column-footer-info {
     flex-grow: 1;
 }
 
@@ -305,14 +327,14 @@ header{
     justify-content: space-between;
     height: 50px;
     align-items: center;
-    
+
 }
 
-.footer-item{
+.footer-item {
     padding: 2px;
 }
 
-.button-end-footer{
+.button-end-footer {
     border-radius: 50px;
     padding: 10px;
     background: #8ea1e1;
