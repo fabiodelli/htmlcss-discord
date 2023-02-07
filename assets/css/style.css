@@ -22,6 +22,17 @@ a{
 h1{
     font-size:  3rem;
 }
+
+h2{
+    font-size: 2rem;
+    margin: 2rem;
+}
+
+h3{
+    font-size: 1rem;
+    margin: 1rem;
+}
+
 .m-2rem{
     margin: 2rem;
 }
@@ -65,7 +76,7 @@ header{
     background-image: url(../img/jumbo.png); 
     background-repeat: no-repeat;
     background-size:contain;
-    height: 850px;
+    height: 750px; 
 }
 
 .header-up {
@@ -127,7 +138,11 @@ header{
 .Button-banner {
     display: flex;
     justify-content: center;
+}
 
+.button-section-3{
+    border-radius: 50px;
+    padding: 10px;
 }
 
 

@@ -16,7 +16,7 @@
     background: pink;
 } */
 
-.debug-section-1{
+/* .debug-section-1{
     background: white;
     height: 500px;
 }
@@ -27,9 +27,9 @@
 
 .debug-section-1-right {
     background: rgb(189, 40, 29);
-}
+} */
 
-.debug-section-2{
+/* .debug-section-2{
     background: rgb(192, 192, 192);
     height: 500px;
 }
@@ -40,16 +40,16 @@
 
 .debug-section-2-right {
     background: rgb(189, 40, 29);
-}
+} */
 
-.debug-section-3{
+/* .debug-section-3{
     background: rgb(192, 192, 192);
 }
 
 .debug-section-center-3 {
     background: green;
     height: 800px;
-}
+} */
 
 .debug-footer-info{
     background-color: rgb(71, 71, 71);
