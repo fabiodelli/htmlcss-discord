@@ -8,7 +8,7 @@
 }
 
 
-/* Utility---------------------------------- */
+/* Tag---------------------------------- */
 
 a {
     color: white;
@@ -47,8 +47,11 @@ main>section {
     margin: 3rem 0;
 }
 
+/*Utility------------------------------------  */
+
 .hr-div {
     width: 800px;
+    display: ;
 }
 
 .favicon-radius {
@@ -121,7 +124,6 @@ main>section {
     position: absolute;
     z-index: -1;
     left: 0;
-
     height: 500px;
     width: 100%;
 }
@@ -139,11 +141,14 @@ main>section {
 /* Body -----------------------------------*/
 
 /* Header---------------------------------- */
+
 header {
     background-image: url(../img/jumbo.png);
     background-repeat: no-repeat;
-    background-size: contain;
-    height: 750px;
+    background-position: center;
+    background-size: 100%;
+    height: 570px;
+    
 }
 
 .header-up {
